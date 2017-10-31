@@ -24,7 +24,6 @@ A vesting is an amount of a specific token given progressively to someone. The p
 >   |    .          |
 >   +===+===========+-----------+---------> time
 >      Start       Cliff       End
-
 >	(thank you aragon for this ASCII graph)
 > ```
 
