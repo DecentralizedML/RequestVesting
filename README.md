@@ -7,25 +7,26 @@ and give an overview over the smart contracts structure.
 Here, the "spender" is the one who create the vesting and the "vester" is the one who will get the tokens.
 
 A vesting is an amount of a specific token given progressively to someone. The period is defined by the `starting time` (the date you start to accumulate tokens), the `grant period` (number of seconds of the grant) and the `cliff period` (number of seconds before the withdraw is possible).
+> ```
+>  Tokens Released
+>   |                           __________ 	
+>   |                         _/ 				
+>   |                       _/  
+>   |                     _/
+>   |                   _/
+>   |                 _/
+>   |                /
+>   |              .|
+>   |            .  |
+>   |          .    |
+>   |        .      |
+>   |      .        |
+>   |    .          |
+>   +===+===========+-----------+---------> time
+>      Start       Cliff       End
 
-  Tokens Released
-   |                           __________   
-   |                         _/ 	
-   |                       _/  	
-   |                     _/	
-   |                   _/	
-   |                 _/	
-   |                /	
-   |              .|	
-   |            .  |	
-   |          .    |	
-   |        .      |	
-   |      .        |	
-   |    .          |	
-   +===+===========+-----------+---------> time 	
-     Start       Cliff       End 	
-
-(thank you aragon for this ASCII graph)
+>	(thank you aragon for this ASCII graph)
+> ```
 
 Some specifications:
 - Anyone can grant a vesting to anyone (even to himself)
