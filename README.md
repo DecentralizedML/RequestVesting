@@ -10,20 +10,20 @@ A vesting is an amount of a specific token given progressively to someone. The p
 
   Tokens Released
    |                           __________   
-   |                         _/ 				
-   |                       _/  
-   |                     _/
-   |                   _/
-   |                 _/
-   |                /
-   |              .|
-   |            .  |
-   |          .    |
-   |        .      |
-   |      .        |
-   |    .          |
-   +===+===========+-----------+---------> time
-     Start       Cliff       End
+   |                         _/ 	
+   |                       _/  	
+   |                     _/	
+   |                   _/	
+   |                 _/	
+   |                /	
+   |              .|	
+   |            .  |	
+   |          .    |	
+   |        .      |	
+   |      .        |	
+   |    .          |	
+   +===+===========+-----------+---------> time 	
+     Start       Cliff       End 	
 
 (thank you aragon for this ASCII graph)
 
